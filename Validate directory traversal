@@ -1,0 +1,2 @@
+I occasionally have trouble with dotdotpwn reporting false positives when doing a web application security test.  Below is a process I use
+to verify/validate what dotdotpwn reports as a vuln.
