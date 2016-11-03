@@ -1,6 +1,8 @@
 I occasionally have trouble with dotdotpwn reporting false positives when doing a web application security test.  Below is a process I use
 to verify/validate what dotdotpwn reports as a vuln.  Not real elegant, but it does the job.
 
+First, get the output of dotdotpwn into a file.  In this case, vulns.txt.
+
 grep autoexec.bat vulns.txt > vulns_autoexec.txt (pull out all lines with word autoexec.bat)
 
 cut -d ' ' -f 4 vulns_autoexec.txt > rough.txt (get only lines with valid http request)
