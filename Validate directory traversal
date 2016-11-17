@@ -10,6 +10,7 @@ cut -d ' ' -f 4 vulns_autoexec.txt > rough.txt (get only lines with valid http r
 sed 's/^/curl /' rough.txt > new_rough.txt (add curl command to each http request)
 
 sed 's/$/ >> here.txt/' new_rough.txt > now.txt (append >> here.txt to each line; pipe output of curl to the file now.txt)
+  At this point, we have a script which curl-s out each URL marked vulnerable
 
 chmod 774 now.txt (make now.txt executable)
 
