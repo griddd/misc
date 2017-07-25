@@ -1,4 +1,4 @@
-These are log snippets from live servers.  
+These are log snippets from live servers. Destination IP addresses have been changed  
 
 2016-05-03 21:59:34 185.130.5.193 21440 192.168.43.71 443 HTTP/1.1 SSTP_DUPLEX_POST /sra_{BA195980-CD49-458b-9E23-C84EE0ADCD75}/ 503 - N/A -
 2016-05-03 21:59:34 185.130.5.193 21460 192.168.43.71 443 HTTP/1.1 GET /nmaplowercheck1462312750 404 - NotFound -
